@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname + '/dist'));
 app.use(express.static(__dirname + '/lib'));
 
-var port = 5000;
+const port = (process.env.PORT || 8080)
 
 app.get('*', function (req, res) {
 	res.sendFile(__dirname + '/dist/index.html');
