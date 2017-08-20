@@ -23,20 +23,7 @@ export default class ShipOfTheseus extends React.Component {
           </div>
           <div>
             <p>
-              skfja;fjdsklfjaskdfj;s
-              skfja;fjdsklfjaskdfj;s
-              skfja;fjdsklfjaskdfj;s
-              skfja;fjdsklfjaskdfj;s
-              skfja;fjdsklfjaskdfj;s
-              skfja;fjdsklfjaskdfj;s
-              skfja;fjdsklfjaskdfj;s
-              skfja;fjdsklfjaskdfj;s
-              skfja;fjdsklfjaskdfj;s
-              skfja;fjdsklfjaskdfj;s
-              skfja;fjdsklfjaskdfj;s
-              skfja;fjdsklfjaskdfj;s
-              skfja;fjdsklfjaskdfj;s
-              skfja;fjdsklfjaskdfj;s
+              Stuff
             </p>
           </div>
         </Col>
