@@ -6,6 +6,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname + '/dist'));
 app.use(express.static(__dirname + '/lib'));
+app.use(express.static(__dirname + '/assets'));
 
 const port = (process.env.PORT || 8081)
 

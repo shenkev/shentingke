@@ -3,17 +3,19 @@ import ReactDOM from 'react-dom';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 // --------------------------------------
-// Page component imports
+// Page component imports sfssf
 // --------------------------------------
-import NavBar from './NavBar/NavBar.js';
 import HomePage from './HomePage/HomePage.js';
+import ProjectPage from './ProjectPage/ProjectPage.js';
+import ShipOfTheseus from './Articles/ShipOfTheseus.js';
 
 ReactDOM.render(
 	<Router>
 		<div>
-			<NavBar />
 			<Switch>
 				<Route exact path="/" component={HomePage} />
+				<Route exact path="/projects" component={ProjectPage} />
+				<Route exact path="/ship-of-theseus" component={ShipOfTheseus} />
 			</Switch>
 		</div>
 	</Router>,

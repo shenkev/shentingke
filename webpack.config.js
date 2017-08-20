@@ -23,5 +23,9 @@ module.exports = {
 			{ test: /\.jpg$/, loader: 'file-loader', exclude: /node_modules/ }
 		]
 	},
-	plugins: [HtmlWebpackPluginConfig]
+	plugins: [HtmlWebpackPluginConfig],
+
+	devServer: {
+		contentBase: path.join(__dirname, "assets")
+	}
 };
